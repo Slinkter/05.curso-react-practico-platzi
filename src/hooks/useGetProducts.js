@@ -9,7 +9,7 @@ const useGetProducts = (API) => {
         setProducts(response.data);
     }, []);
 
-    return products;
+    return products.slice(0, 3);
 };
 
 export default useGetProducts;

@@ -7,7 +7,7 @@ import {
 import Layout from "@containers/Layout";
 import AppContext from "../context/AppContext";
 import useInitialState from "../hooks/useInitialState";
-// Components
+// Components  - page
 import Home from "@pages/Home";
 import Login from "@pages/Login";
 import PasswordRecovery from "@pages/PasswordRecovery";
